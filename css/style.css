@@ -1,10 +1,10 @@
 body {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
 }
 
 .intro {
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans';
   position: relative;
   font-size: 32px;
   line-height: 60px;
