@@ -68,3 +68,34 @@ header {
   color: #171717;
   height: 60vh;
 }
+
+@keyframes bounce {
+	0%, 20%, 100% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+
+	20% {
+    -webkit-transform: rotate(10deg);
+		transform: rotate(10deg)
+	}
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+		transform: rotate(-10deg)
+	}
+
+	60% {
+    -webkit-transform: rotate(5deg);
+		transform: rotate(5deg)
+	}
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+		transform: rotate(-5deg)
+	}
+}
+
+.personal_image:hover {
+	animation: bounce 1s;
+}
