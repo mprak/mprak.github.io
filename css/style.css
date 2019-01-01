@@ -1,0 +1,16 @@
+body {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 300;
+}
+
+.intro {
+  font-family: 'Fira Sans Condensed';
+  position: relative;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  width: 780px;
+  margin: 80px auto;
+  color: #3B3B3B;
+  height: 60vh;
+}
