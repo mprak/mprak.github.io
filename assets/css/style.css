@@ -1,10 +1,64 @@
 body {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
 }
 
+a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #3B3B3B;
+}
+
+.navbar > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #3B3B3B;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.logo {
+  float: left;
+}
+
+header {
+  width: 90%;
+  padding-top: 30px;
+  margin: 0 auto;
+  height: 60px;
+  font-size: 16px;
+  max-width: 1200px;
+  z-index: 1;
+  position: relative;
+}
+
+
+.navbar {
+  float: right;
+  font-family: 'Fira Sans';
+  padding: 0 0 0 20px;
+}
+
+.navbar:hover {
+  cursor: pointer;
+}
+
 .intro {
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans';
   position: relative;
   font-size: 32px;
   line-height: 60px;
