@@ -255,8 +255,13 @@ header {
 .gcloud-project {
   display: block;
   margin: 10px;
-  width:250px; 
+  width:250px;
   box-shadow: 5px 5px 5px #17171722;
+  transition: .5s ease;
+}
+
+.gcloud-project:hover {
+  transform: scale(1.5);
 }
 
 .project-container:hover .project-description {
