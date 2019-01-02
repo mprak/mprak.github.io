@@ -3,7 +3,7 @@ body {
   font-weight: 299;
   background-color:
 }
-
+/* links */
 a {
   position: relative;
   display: inline-block;
@@ -110,7 +110,6 @@ header {
   position: relative;
 }
 
-
 .navbar {
   float: right;
   font-family: 'Roboto';
@@ -121,6 +120,8 @@ header {
 .navbar:hover {
   cursor: pointer;
 }
+
+/* text for the individual pages */
 
 .intro {
   font-family: 'Roboto';
@@ -143,9 +144,8 @@ header {
   width: 700px;
   margin: 80px auto;
   color: #171717;
-  height: 60vh;
+  height: 10vh;
 }
-
 
 .about_me_description {
   font-family: 'Roboto';
@@ -160,6 +160,7 @@ header {
   padding-bottom: 20px;
 }
 
+/* swivel effect for photos */
 @keyframes swivel {
 	0%, 20%, 100% {
 		-webkit-transform: rotate(0deg);
@@ -191,16 +192,15 @@ header {
 	animation: swivel 1s;
   cursor: pointer;
 
-
 }
-
+/* animation */
 .animate {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/*=== FADE IN ===*/
+/* fade in */
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -228,4 +228,57 @@ header {
 	-webkit-transform: none;
 	transform: none;
 }
+}
+
+/* projects */
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  width:780px;
+  margin: 80px auto;
+}
+
+.project-container {
+  position: relative;
+  width: auto;
+}
+
+.project {
+  display: block;
+  width: 300px;
+  margin: 10px
+}
+
+.project-container:hover .project-description {
+  opacity: .8;
+}
+
+.project-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 1
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #171717;
+  margin: 10px
 }
