@@ -237,7 +237,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-  width:780px;
+  width:700px;
   margin: 80px auto;
 }
 
@@ -252,13 +252,20 @@ header {
   margin: 10px
 }
 
+.gcloud-project {
+  display: block;
+  margin: 10px;
+  width:250px; 
+  box-shadow: 5px 5px 5px #17171722;
+}
+
 .project-container:hover .project-description {
   opacity: .8;
 }
 
-.project-text {
+.project-text a {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -286,7 +293,7 @@ header {
 /* ENJOY SECTION */
 
 .enjoy-date {
-  color: rgba(0,0,0,0.4);
+  color: #17171766;
   font-size: 1rem;
   width: 100%;
   position: relative;
@@ -305,9 +312,14 @@ header {
   text-decoration: none;
 }
 
+.enjoy-title a:hover {
+  text-decoration: underline;
+}
+
+
 .enjoy-comments {
-  margin-top: 0;
-  color: rgba(0,0,0,.4);
+  margin-top: 2px;
+  color: #17171766;
   font-size: .9rem;
 }
 
