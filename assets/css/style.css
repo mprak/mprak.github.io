@@ -335,3 +335,26 @@ section {
 hr {
   opacity: 0;
 }
+
+footer {
+  width: 90%;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  height: 60px;
+  font-size: 16px;
+  max-width: 1200px;
+  z-index: 1;
+  position: relative;
+}
+
+.phone-showcase {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  width: 780px;
+  margin: 80px auto;
+  color: #17171766;
+  height: 30vh;
+
+}
