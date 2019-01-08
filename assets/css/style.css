@@ -168,28 +168,28 @@ header {
 	}
 
 	20% {
-    -webkit-transform: rotate(5deg);
-		transform: rotate(5deg)
+    -webkit-transform: rotate(2deg);
+		transform: rotate(2deg)
 	}
 
   40% {
-    -webkit-transform: rotate(-5deg);
-		transform: rotate(-5deg)
+    -webkit-transform: rotate(-2deg);
+		transform: rotate(-2deg)
 	}
 
 	60% {
-    -webkit-transform: rotate(2.5deg);
-		transform: rotate(2.5deg)
+    -webkit-transform: rotate(1deg);
+		transform: rotate(1deg)
 	}
 
   80% {
-    -webkit-transform: rotate(-2.5deg);
-		transform: rotate(-2.5deg)
+    -webkit-transform: rotate(-1deg);
+		transform: rotate(-1deg)
 	}
 }
 
 .personal_image:hover {
-	animation: swivel 1s;
+	animation: swivel 1s ease;
   cursor: pointer;
 
 }
