@@ -168,23 +168,23 @@ header {
 	}
 
 	20% {
-    -webkit-transform: rotate(10deg);
-		transform: rotate(10deg)
-	}
-
-  40% {
-    -webkit-transform: rotate(-10deg);
-		transform: rotate(-10deg)
-	}
-
-	60% {
     -webkit-transform: rotate(5deg);
 		transform: rotate(5deg)
 	}
 
-  80% {
+  40% {
     -webkit-transform: rotate(-5deg);
 		transform: rotate(-5deg)
+	}
+
+	60% {
+    -webkit-transform: rotate(2.5deg);
+		transform: rotate(2.5deg)
+	}
+
+  80% {
+    -webkit-transform: rotate(-2.5deg);
+		transform: rotate(-2.5deg)
 	}
 }
 
