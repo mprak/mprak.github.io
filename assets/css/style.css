@@ -360,9 +360,10 @@ footer {
   font-size: 15px;
   line-height: 20px;
   text-align: center;
-  width: 780px;
+  width: 700px;
   margin: 80px auto;
+  margin-top: 20px;
   color: #17171766;
-  height: 30vh;
+
 
 }
