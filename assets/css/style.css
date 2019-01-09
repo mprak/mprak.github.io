@@ -99,13 +99,13 @@ a {
   float: left;
 }
 
-.logo:hover {
+/* .logo:hover {
   -webkit-transform: rotateY(360deg);
   transform: rotateY(360deg);
   transition duration: 2s;
   -webkit-transition-duration: 2s;
 
-}
+} */
 
 header {
   width: 90%;
