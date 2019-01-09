@@ -99,6 +99,14 @@ a {
   float: left;
 }
 
+.logo:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  transition duration: 2s;
+  -webkit-transition-duration: 2s;
+
+}
+
 header {
   width: 90%;
   padding-top: 30px;
