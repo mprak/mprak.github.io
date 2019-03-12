@@ -257,7 +257,14 @@ header {
 .project {
   display: block;
   width: 300px;
-  margin: 10px
+  margin: 10px;
+  box-shadow: 5px 5px 5px #17171722;
+}
+
+.day {
+  display: block;
+  width: 300px;
+  margin: 10px;
 }
 
 .gcloud-project {
