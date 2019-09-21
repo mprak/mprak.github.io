@@ -102,7 +102,7 @@ a {
   height: 4px;
   bottom: 4px;
   left: 0;
-  background-color: #17171778;
+  background-color: #1974BB33;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -121,10 +121,10 @@ a {
 }
 
 /* .logo:hover {
-  -webkit-transform: rotateY(360deg);
-  transform: rotateY(360deg);
-  transition duration: 2s;
-  -webkit-transition-duration: 2s;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 1s ease-in-out 0s;
+  transition: all 1s ease-in-out 0s;
 
 } */
 
@@ -182,11 +182,10 @@ header {
   font-size: 16px;
   line-height: 24px;
   text-align: left;
-  width: 700px;
-  margin: 80px auto;
+  width: 780px;
+  margin: 40px auto;
   color: #171717;
   height: 60vh;
-  padding-bottom: 20px;
 }
 
 /* swivel effect for photos */
@@ -280,6 +279,12 @@ header {
   width: 300px;
   margin: 10px;
   box-shadow: 5px 5px 5px #17171722;
+}
+
+.project-beacn {
+  display: block;
+  width: 300px;
+  margin: 10px;
 }
 
 .day {
@@ -377,7 +382,7 @@ footer {
   padding-bottom: 30px;
   margin: 0 auto;
   height: 60px;
-  font-size: 16px;
+  font-size: 8px;
   max-width: 1200px;
   z-index: 1;
   position: relative;
@@ -393,4 +398,31 @@ footer {
   margin-top: 20px;
   color: #17171766;
 
+}
+
+.home-footer {
+  width: 90%;
+  max-width: 700px;
+  font-size: 24px;
+  opacity: 1;
+}
+
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-buttons a {
+  font-size: 24px;
+  margin: 0 10px;
+  transition: .3s;
+  filter: grayscale(100%);
+  opacity: .75;
+}
+
+.social-buttons a:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
 }
