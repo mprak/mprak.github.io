@@ -216,11 +216,11 @@ header {
 	}
 }
 
-.personal_image:hover {
+/* .personal_image:hover {
 	animation: swivel 1s ease;
   cursor: pointer;
 
-}
+} */
 /* animation */
 .animate {
   -webkit-animation-duration: 1s;
@@ -423,6 +423,7 @@ footer {
 .social-buttons a:hover {
   opacity: 1;
   filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
   transform: translateY(-5px);
   -webkit-transform: translateY(-5px);
 }
