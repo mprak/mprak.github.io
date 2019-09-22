@@ -309,7 +309,7 @@ header {
   opacity: .8;
 }
 
-.project-text a {
+.project-text {
   color: white;
   font-size: 18px;
   position: absolute;
