@@ -272,6 +272,7 @@ header {
 .project-container {
   position: relative;
   width: auto;
+  border-radius: 10px
 }
 
 .project {
@@ -279,6 +280,7 @@ header {
   width: 300px;
   margin: 10px;
   box-shadow: 5px 5px 5px #17171722;
+  border-radius: 10px
 }
 
 .project-beacn {
@@ -333,7 +335,8 @@ header {
   opacity: 0;
   transition: .5s ease;
   background-color: #171717;
-  margin: 10px
+  margin: 10px;
+  border-radius: 10px
 }
 
 /* ENJOY SECTION */
