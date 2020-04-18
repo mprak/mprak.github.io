@@ -317,6 +317,7 @@ header {
 
 .duo-project:hover {
   transform: scale(1.1);
+  -webkit-transform: scale(1.1)
 }
 
 .project-container:hover .project-description {
