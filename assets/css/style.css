@@ -307,6 +307,18 @@ header {
   transform: scale(1.5);
 }
 
+.duo-project {
+  display: block;
+  margin: 10px;
+  width:650px;
+  box-shadow: 5px 5px 5px #17171722;
+  transition: .5s ease;
+}
+
+.duo-project:hover {
+  transform: scale(1.1);
+}
+
 .project-container:hover .project-description {
   opacity: .8;
 }
