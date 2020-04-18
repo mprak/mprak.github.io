@@ -310,7 +310,7 @@ header {
 .duo-project {
   display: block;
   margin: 10px;
-  width:650px;
+  width:610px;
   box-shadow: 5px 5px 5px #17171722;
   transition: .5s ease;
 }
