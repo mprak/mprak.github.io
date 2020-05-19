@@ -1,15 +1,24 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'aktiv-grotesk', sans-serif;
   font-weight: 400;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 /* links */
 a {
   position: relative;
   display: inline-block;
   text-decoration: none;
+  color: #B7B7B7;
+  transition: .5s;
+}
+
+a:hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
   color: #171717;
 }
+
 
 .navbar > a:before {
   content: "";
@@ -78,7 +87,7 @@ a {
   content: "";
   position: absolute;
   width: 100%;
-  height: 10px;
+  height: 5px;
   bottom: 5px;
   left: 0;
   background-color: #00326244;
@@ -141,7 +150,7 @@ header {
 
 .navbar {
   float: right;
-  font-family: 'Roboto';
+  font-family: 'aktiv-grotesk';
   padding-right: 20px;
   padding-top: 8px;
 }
@@ -153,7 +162,7 @@ header {
 /* text for the individual pages */
 
 .intro {
-  font-family: 'Roboto';
+  font-family: 'aktiv-grotesk';
   position: relative;
   font-size: 32px;
   line-height: 48px;
@@ -166,7 +175,7 @@ header {
 }
 
 .enjoy-create {
-  font-family: 'Roboto';
+  font-family: 'aktiv-grotesk';
   position: relative;
   font-size: 16px;
   line-height: 24px;
@@ -177,7 +186,7 @@ header {
 }
 
 .about_me_description {
-  font-family: 'Roboto';
+  font-family: 'aktiv-grotesk';
   position: relative;
   font-size: 16px;
   line-height: 24px;
@@ -191,36 +200,43 @@ header {
 /* swivel effect for photos */
 @keyframes swivel {
 	0%, 20%, 100% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg)
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px)
 	}
 
 	20% {
-    -webkit-transform: rotate(2deg);
-		transform: rotate(2deg)
+    -webkit-transform: translateY(5px);
+		transform: translateY(5px)
 	}
 
   40% {
-    -webkit-transform: rotate(-2deg);
-		transform: rotate(-2deg)
+    -webkit-transform: translateY(-5px);
+		transform: translateY(-5px)
 	}
 
 	60% {
-    -webkit-transform: rotate(1deg);
-		transform: rotate(1deg)
+    -webkit-transform: translateY(2.5px);
+		transform: translateY(2.5px)
 	}
 
   80% {
-    -webkit-transform: rotate(-1deg);
-		transform: rotate(-1deg)
+    -webkit-transform: translateY(-2.5px);
+		transform: translateY(-2.5px)
 	}
 }
 
-/* .personal_image:hover {
+.personal_image {
+  opacity: 0.3;
+  transition: 1s;
+
+}
+
+.personal_image:hover {
 	animation: swivel 1s ease;
   cursor: pointer;
+  opacity: 1;
 
-} */
+}
 /* animation */
 .animate {
   -webkit-animation-duration: 1s;
@@ -372,6 +388,7 @@ header {
 
 .enjoy-title a {
   text-decoration: none;
+  color: #171717
 }
 
 .enjoy-title a:hover {
