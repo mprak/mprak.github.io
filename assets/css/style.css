@@ -1,3 +1,6 @@
+@import url(//db.onlinewebfonts.com/c/602123ef5a08a5aa292cbd46236307d2?family=RollerscriptW01-Smooth);
+@font-face {font-family: "RollerscriptW01-Smooth"; src: url("//db.onlinewebfonts.com/t/602123ef5a08a5aa292cbd46236307d2.eot"); src: url("//db.onlinewebfonts.com/t/602123ef5a08a5aa292cbd46236307d2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/602123ef5a08a5aa292cbd46236307d2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/602123ef5a08a5aa292cbd46236307d2.woff") format("woff"), url("//db.onlinewebfonts.com/t/602123ef5a08a5aa292cbd46236307d2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/602123ef5a08a5aa292cbd46236307d2.svg#RollerscriptW01-Smooth") format("svg"); }
+
 body {
   font-family: 'Cousine', monospace;
   background-color: #000800;
@@ -43,7 +46,7 @@ a:hover {
 }
 
 #content {
-  width: 450px;
+  width: 475px;
   margin-left: 100px;
   margin-top: 100px;
 }
@@ -52,4 +55,4 @@ a:hover {
   #content {
     margin: 80px auto;
     padding: 0;
-    width: 80%;
+    width: 85%;
